@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura - Conversores Universais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Conversores Universais</h1>
+            <nav>
+                <a href="index.html" class="nav-button active">Temperatura</a>
+                <a href="moedas.html" class="nav-button">Moedas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="converter-container">
+        <h2>Conversor de Temperatura</h2>
+        
+        <div class="converter-body">
+            <section class="input-section">
+                <label for="input-value">Valor a Converter</label>
+                <input type="number" id="input-value" placeholder="Digite o valor...">
+                <select id="select-from">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </section>
+
+            <section class="output-section">
+                <label for="output-value">Resultado</label>
+                <input type="text" id="output-value" readonly>
+                <select id="select-to">
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </section>
+        </div>
+
+        <button id="convert-btn">Converter</button>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Elaborado por: Artur B. Catapano</p>
+            <div class="social-links">
+                <a href="https://github.com/arturcatapano" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/arturcatapano-redes-infraestrutura/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script-temperatura.js"></script>
+</body>
+</html>

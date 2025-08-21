@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas - Conversores Universais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Conversores Universais</h1>
+            <nav>
+                <a href="index.html" class="nav-button">Temperatura</a>
+                <a href="moedas.html" class="nav-button active">Moedas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="converter-container">
+        <h2>Conversor de Moedas</h2>
+        
+        <div class="converter-body">
+            <section class="input-section">
+                <label for="input-amount">Valor</label>
+                <input type="number" id="input-amount" placeholder="100,00">
+                <select id="select-from-currency">
+                    <option value="BRL">Real Brasileiro (R$)</option>
+                    <option value="USD">Dólar Americano ($)</option>
+                    <option value="EUR">Euro (€)</option>
+                    <option value="BTC">Bitcoin (₿)</option>
+                </select>
+            </section>
+
+            <section class="output-section">
+                <label for="output-amount">Resultado</label>
+                <input type="text" id="output-amount" readonly>
+                <select id="select-to-currency">
+                    <option value="USD">Dólar Americano ($)</option>
+                    <option value="BRL">Real Brasileiro (R$)</option>
+                    <option value="EUR">Euro (€)</option>
+                    <option value="BTC">Bitcoin (₿)</option>
+                </select>
+            </section>
+        </div>
+        <p class="api-info">Cotações atualizadas em tempo real.</p>
+        <button id="convert-currency-btn">Converter</button>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Elaborado por: Artur B. Catapano</p>
+            <div class="social-links">
+                <a href="https://github.com/arturcatapano" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/arturcatapano-redes-infraestrutura/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script-moedas.js"></script>
+</body>
+</html>
