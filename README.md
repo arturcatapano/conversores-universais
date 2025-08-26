@@ -1,11 +1,5 @@
 🌐 Conversores Universais
 <p align="center">
-<!-- IMPORTANTE: Grave um GIF curto da sua aplicação funcionando e coloque o caminho dele aqui. -->
-<!-- Mostre a navegação entre as páginas e o funcionamento de ambos os conversores! -->
-<img src="[COLE O LINK PARA SEU GIF OU SCREENSHOT AQUI]" alt="Demonstração do App Conversores Universais" width="700px"/>
-</p>
-
-<p align="center">
 Uma aplicação web de duas páginas que oferece ferramentas de conversão para temperatura e moedas, construída com tecnologias web puras e consumindo dados de uma API em tempo real.
 </p>
 
@@ -102,4 +96,4 @@ document.addEventListener('DOMContentLoaded', () => {
 Esta abordagem demonstra uma preocupação com a experiência do usuário e a robustez da aplicação ao lidar com operações assíncronas.
 
 👨‍💻 Contato
-[SEU NOME COMPLETO]
+Artur Babberg Catapano
