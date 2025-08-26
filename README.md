@@ -46,7 +46,7 @@ Para executar este projeto, você precisará de um servidor local para que o nav
 
 Clone o repositório:
 
-git clone https://github.com/[SEU-USUARIO]/[SEU-REPOSITORIO].git
+git clone https://github.com/arturcatapano/conversores-universais.git
 
 Navegue até a pasta do projeto:
 
