@@ -95,8 +95,8 @@ O botão de conversão é desabilitado durante o carregamento para prevenir erro
 
 Esta abordagem demonstra uma preocupação com a experiência do usuário e a robustez da aplicação ao lidar com operações assíncronas.
 
-👨‍💻 Contato
+👨‍💻 Contato  
 
-Artur Babberg Catapano
+Artur Babberg Catapano  
 Linkedin: https://www.linkedin.com/in/arturcatapano-redes-infraestrutura/
 Github: https://github.com/arturcatapano/
