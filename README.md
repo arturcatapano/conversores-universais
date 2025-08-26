@@ -98,5 +98,7 @@ Esta abordagem demonstra uma preocupação com a experiência do usuário e a ro
 👨‍💻 Contato  
 
 Artur Babberg Catapano  
-Linkedin: https://www.linkedin.com/in/arturcatapano-redes-infraestrutura/
+
+Linkedin: https://www.linkedin.com/in/arturcatapano-redes-infraestrutura/  
+
 Github: https://github.com/arturcatapano/
