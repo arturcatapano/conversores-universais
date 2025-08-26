@@ -68,7 +68,7 @@ O botão de conversão é desabilitado durante o carregamento para prevenir erro
 
 // trecho de script-moedas.js
 
-document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
     // ... seleção de elementos ...
     const convertBtn = document.getElementById('convert-currency-btn');
 
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             apiInfo.textContent = 'Erro ao carregar cotações.';
             // Mantém o botão desabilitado em caso de erro
         });
-});
+    });
 
 Esta abordagem demonstra uma preocupação com a experiência do usuário e a robustez da aplicação ao lidar com operações assíncronas.
 
